@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.header{
+    background: #435a3b;
+    height: 130px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+}
+    #logo {
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    #menu{ 
+        width: 500px;
+        display: inline;
+        display: flex;
+        justify-content: end;
+        padding-top: 30px;
+        padding-right: 30px;
+        gap: 50px;
+    }
+
+        .menuoptions{
+            color: #435a3b;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10pt;
+            box-sizing: border-box;
+            width: 200px;
+            height: 35px;
+            text-align: center;
+            padding-top: 8px;
+            border-color: #253122;
+            background-color: white;
+            border-radius: 3pt;
+
+        }
+
+.main {
+    display: flex;
+}
+
+#sidebar{
+    width: 1000px;
+    padding: 20px;
+    padding-top: 40px;
+    padding-left: 30px;
+    background: #f8f7f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+}
+
+    #primerbloque{
+        background: #EEEEEE;
+        display: flex;
+        align-items: end;
+    }
+
+        #intro{
+            display: flex;
+            width: 92%;
+            margin: 50px;
+            
+        }
+
+        #novedades{
+            background: #EEEEEE;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-left: 50px;
+        }
+
+        #fichas{
+         background: #EEEEEE;
+         display: flex;
+         padding: 50px;
+         padding-top: 20px;
+         }
+         
+        .ficha-novedad{
+            width: 250px;
+            background: #435a3b;
+            color: #EEEEEE;
+            padding: 20px;
+            margin: 10px;
+            /*Aplicar tipografía*/
+        }
+
+        .usuario{
+            display: flex;
+        }
+
+        .fotousuario{
+            width: 50px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+        }
+
+        .fotolibro {
+            width: 200px;
+            margin-bottom: 20px;
+        }
+
+
+.footer{ 
+    background: #435a3b;
+    font-size: 10pt;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a{
+    color: white;
+    display: flex;
+    display: inline;
+    padding-left: 100px;
+}
