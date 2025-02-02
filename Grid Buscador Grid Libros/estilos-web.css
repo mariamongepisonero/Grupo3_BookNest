@@ -16,43 +16,40 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 12pt;
 }
 
-        #logo {
-            width: 90px;
-            border-radius: 50%;
-        }
-        #menu{ 
-            width: 500px;
-            display: inline;
-            display: flex;
-            justify-content: end;
-            padding-top: 30px;
-            padding-right: 30px;
-            gap: 50px;
-            
-        }
-        .menuoptions{
-            color: #435a3b;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 10pt;
-            box-sizing: border-box;
-            width: 200px;
-            height: 35px;
-            text-align: center;
-            padding-top: 8px;
-            border-color: #253122;
-            background-color: white;
-            border-radius: 3pt;
-        
-        }
 
-        
-        .container{
-            display:flex;
-            flex-direction: column;
-            height: 100vh;
-        
-        }
-        
+#logo {
+width: 90px;
+border-radius: 50%;
+}
+#menu{ 
+width: 500px;
+display: inline;
+display: flex;
+justify-content: end;
+padding-top: 30px;
+padding-right: 30px;
+gap: 50px;
+}
+.menuoptions{
+color: #435a3b;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 10pt;
+box-sizing: border-box;
+width: 200px;
+height: 35px;
+text-align: center;
+padding-top: 8px;
+border-color: #253122;
+background-color: white;
+border-radius: 3pt;
+}
+
+.container{
+display:flex;
+flex-direction: column;
+height: 100vh;
+    }
+       
 h3, h4{
 font-family:Arial, Helvetica, sans-serif;
 margin: 20px;
@@ -65,72 +62,76 @@ font-family: Arial, Helvetica, sans-serif;
 padding: 40px;
 margin-top: 20px;
 }
-        #usuario{
-            width: 170px;
-            height: 170px;
-            display: flex;
-            padding: 10px;
-        }
-        .usuario{
-            display: flex;
-        }
-        .estrella{
-            height: 30px;
-            width: auto;
-            padding: 0px;
-            margin-left: 20px;
-        }
-        .estrellas{
-            padding: 0px;
+
+#usuario{
+width: 170px;
+height: 170px;
+display: flex;
+padding: 10px;
         }
 
-        .menu ul {
-    display: flex;
-    flex-direction: column; /* Hace que los enlaces estén en vertical */
-    gap: 30px; /* Espacio entre cada enlace */
-    flex-direction: row;
-    margin-top: 100px;
+.usuario{
+display: flex;
+}
+
+.estrella{
+height: 30px;
+width: auto;
+padding: 0px;
+margin-left: 20px;
+        }
+
+.menu ul {
+display: flex;
+flex-direction: column; /* Hace que los enlaces estén en vertical */
+gap: 30px; /* Espacio entre cada enlace */
+flex-direction: row;
+margin-top: 100px;
+    }
     
-    }
-    a{
-        color: black;
-    }
-    .grid-container {
-            width: 100%;
-            max-width: 1100px;
-            margin-top: 60px auto;
-            display: flex;
-            grid-template-columns: repeat(auto-fit, nimax(280px, 1fr)); 
-            }
+a{
+color: black;
+}
 
-    .grid-container img{
-            height: 80%;
-            width: 300px;
-            height: 360px;
-            object-fit: cover;
-            margin-top: 30px; 
-            padding: 20px; 
-           }
-   
-        .comentario {
-            margin-top: 10px;
-            font-size: 14px;
-            color: gray;
+.grid-container {
+width: 100%;
+max-width: 1100px;
+margin-top: 60px auto;
+display: flex;
+grid-template-columns: repeat(auto-fit, nimax(280px, 1fr)); 
+}
+
+.grid-container img{
+height: 80%;
+width: 300px;
+height: 360px;
+object-fit: cover;
+margin-top: 30px; 
+padding: 20px; 
+    }
+
+.comentario {
+margin-top: 10px;
+font-size: 14px;
+color: gray;
         }
 
 .footer{ 
-width: 100%px;
+    width: 100%;
 background: #435a3b;
 font-size: 10pt;
 text-align: center;
 padding: 20px;
-            
-}
+        }
         
 .footer a{
-color: white;
-display: flex;
-display: inline;
-padding-left: 100px;
-        
-}
+            color: white;
+            display: flex;
+            display: inline;
+            padding-left: 100px;
+        }
+        .corazon{
+            width: 30px;
+            flex-direction: row;
+        }
+
