@@ -44,6 +44,7 @@
     display: flex;
 }
 
+
 .content {
     display:flex;
     flex-direction: row;
@@ -61,7 +62,8 @@
 .estrellas{
     padding: 0px;
 }
-.section{
+.section-card{
+    width: 50px;
     padding:20px;
 }
 .section:nth-child(even){
