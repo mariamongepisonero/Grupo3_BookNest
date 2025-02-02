@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info libros</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        main{
+            display: flex;
+            justify-content: center;
+        }
+
+        .imagen-libro{
+            padding: 30px;
+        }
+
+        img{
+            height: 700px;
+            width: 500px;
+            border-radius: 10px;
+        }
+
+        .contenedor{
+            padding: 30px;
+        }
+
+        .descripcion-bloque{
+            width: 600px;
+            height: 600px;
+            background: #81a288;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .descripcion{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+
+        }
+
+        .descripcion h3{
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+
+        .descripcion p {
+            font-size: 20px;
+        }
+
+        .titulo{
+            margin-bottom: 10px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 5px;
+            text-align: center ;
+            font-size: 30px;
+        }
+        
+        .boton{
+          padding: 10px;
+          border-radius: 10px;
+          font-size: 20px;
+        }
+
+        .header{
+
+background: #81a288;
+padding: 30px;
+display: flex;
+justify-content: space-between;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12pt;
+}
+
+        #logo {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+        }
+        #menu{ 
+            width: 500px;
+            display: inline;
+            display: flex;
+            justify-content: end;
+            padding-top: 30px;
+            padding-right: 30px;
+            gap: 50px;
+            
+        }
+        .menuoptions{
+            color: #435a3b;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10pt;
+            box-sizing: border-box;
+            width: 200px;
+            height: 35px;
+            text-align: center;
+            padding-top: 8px;
+            border-color: #253122;
+            background-color: white;
+            border-radius: 3pt;
+        
+        }
+
+        
+        .container{
+            display:flex;
+            flex-direction: column;
+            height: 100vh;
+        
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="header">
+            <div>
+                <img id="logo" src="./img/BookNest.png" alt="Logo">
+            </div>
+            <div id="menu">
+                <a class="menuoptions" href=""><b>Inicia sesión</b></a>
+                <a class="menuoptions" href=""><b>Regístrate</b></a>
+                <a class="menuoptions" href=""><b>Presta un libro</b></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="imagen-libro">
+            <img src="./img/laasistenta.jpg" alt="Libro-01">
+        </div>
+        <div class="contenedor">
+            <div class="descripcion-bloque">
+                <div class="titulo"><h2>La Asistenta</h2></div>
+                <div class="descripcion">
+                    <h3>Genero: Thriller</h3>
+                    <p>Todos los días friego la preciosa casa de los Winchester de arriba abajo. Recojo a su hija del colegio y preparo deliciosas comidas para toda la familia antes de subir a cenar sola en mi minúscula habitación del piso superior.
+                        Intento no prestar atención a Nina cuando lo ensucia todo simplemente para ver cómo lo limpio. A las extrañas mentiras que cuenta sobre su propia hija. A su marido, que cada día parece más abatido. Pero cuando miro a Andrew a los ojos, castaños, encantadores y llenos de dolor, no me resulta difícil imaginar cómo sería vivir en la piel de Nina. El gran vestidor, el coche de lujo, el esposo perfecto.
+                        Hasta que un día no me resisto a probarme uno de sus maravillosos vestidos blancos. Solo quiero saber qué se siente. Pero ella pronto lo descubre, y cuando me doy cuenta de que la puerta de mi habitación solo se cierra por fuera ya es demasiado tarde.</p>
+                </div>
+                <input type="submit" class="boton" value="Reservar">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
