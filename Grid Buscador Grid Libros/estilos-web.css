@@ -1,0 +1,164 @@
+
+/* Reset de HTML */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.header{
+
+background: #435a3b;
+padding: 30px;
+display: flex;
+justify-content: space-between;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12pt;
+}
+
+
+#logo {
+width: 90px;
+border-radius: 50%;
+}
+#menu{ 
+width: 500px;
+display: inline;
+display: flex;
+justify-content: end;
+padding-top: 30px;
+padding-right: 10px;
+gap: 50px;
+}
+.menuoptions{
+color: #435a3b;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 10pt;
+box-sizing: border-box;
+width: 200px;
+height: 35px;
+text-align: center;
+padding-top: 8px;
+border-color: #253122;
+background-color: white;
+border-radius: 3pt;
+}
+
+       
+h3, h4{
+font-family:Arial, Helvetica, sans-serif;
+margin: 20px;
+}
+p{
+font-family: Arial, Helvetica, sans-serif;
+}
+  
+#usuario{
+width: 170px;
+height: 170px;
+display: flex;
+padding: 10px;
+        }
+
+.usuario{
+display: flex;
+margin-top: 40px;
+margin-left: 40px;
+}
+
+
+.estrella{
+height: 30px;
+width: 30px;
+padding: 0px;
+margin-inline-start: 10px;
+        }
+
+.menu ul {
+display: flex;
+flex-direction: column; /* Hace que los enlaces estén en vertical */
+gap: 30px; /* Espacio entre cada enlace */
+flex-direction: row;
+margin-top: 50px;
+margin-left: 30px;
+    }
+    
+a{
+color: black;
+}
+
+
+    
+    .card {
+        flex: 1 1 50px; /* Todas las tarjetas tendrán al menos 250px de ancho */
+        height: 500px; /* Altura fija para todas las tarjetas */
+        box-shadow: 2px 2px 5px #18290a;
+        margin: 15px;
+        border-radius: 15px;
+        padding: 20px;
+        background-color: white;
+        border: 2px solid #4CAF50;
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .section:nth-child(even){
+        background-color: #f3f3f3
+    }
+    
+    .section{
+        padding:20px;
+        
+    }
+    .section:nth-child(even){
+        background-color: #f3f3f3
+    }
+    h2,h3,h4,p{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h3{
+        color: rgb(82, 75, 75);
+    }
+    
+    
+    .content {
+        display:flex;
+        flex-direction: row;
+        flex: 1;
+        display:flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 10px;
+    }
+    img{
+        width: 200px;
+        justify-content: center;
+        padding: 10px;
+        margin: 20px;
+    }
+
+.comentario {
+margin-top: 10px;
+font-size: 14px;
+color: gray;
+        }
+
+.footer{ 
+background: #435a3b;
+font-size: 10pt;
+text-align: center;
+padding: 20px;
+        }
+        
+.footer a{
+            color: white;
+            display: flex;
+            display: inline;
+            padding-left: 100px;
+        }
+        .corazon{
+            width: 30px;
+            flex-direction: row;
+        }
+
