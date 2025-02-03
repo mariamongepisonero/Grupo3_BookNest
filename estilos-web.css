@@ -9,10 +9,10 @@ a{
     text-decoration: none;
 }
 
-
+/*Estos son los estilos para el header*/
 .header{
     background: #435a3b;
-    height: 130px;
+    height: 120px;
     padding: 30px;
     display: flex;
     justify-content: space-between;
@@ -25,19 +25,30 @@ a{
     }
 
     #menu{ 
-        width: 500px;
+        width: 1000px;
         display: inline;
         display: flex;
         justify-content: end;
-        padding-top: 30px;
-        padding-right: 30px;
-        gap: 50px;
+        padding-top: 20px;
+        gap: 20px;
+    }
+
+    #buscador{
+        background-color: rgb(228, 228, 228);
+        box-sizing: border-box;
+        width: 800px;
+        height: 30px;
+        border-radius: 10pt;
+        padding: 5px;
+        padding-left: 10px;
+        font-size: 10pt;
+
     }
 
         .menuoptions{
             color: #435a3b;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 10pt;
+            font-size: 9pt;
             box-sizing: border-box;
             width: 200px;
             height: 35px;
@@ -48,6 +59,7 @@ a{
             border-radius: 3pt;
 
         }
+/*Aquí acaban los estilos para el header*/
 
 .main {
     display: flex;
@@ -56,7 +68,7 @@ a{
 #sidebar{
     width: 1000px;
     padding: 20px;
-    padding-top: 40px;
+    padding-top: 80px;
     padding-left: 30px;
     background: #f8f7f7;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -89,6 +101,8 @@ a{
          padding-top: 20px;
          }
          
+
+
         .ficha-novedad{
             width: 250px;
             background: #435a3b;
@@ -106,14 +120,23 @@ a{
             width: 50px;
             margin-right: 10px;
             margin-bottom: 20px;
+            border-radius: 70px;
         }
 
         .fotolibro {
             width: 200px;
-            margin-bottom: 20px;
+            padding-bottom: 10px;
+            padding-top: 15px;
+        }
+
+        .precio{
+            font-size: 16pt;
+            color: rgb(12, 31, 11);
+            text-align: end;
         }
 
 
+/*Estos son los estilos para el footer*/
 .footer{ 
     background: #435a3b;
     font-size: 10pt;
