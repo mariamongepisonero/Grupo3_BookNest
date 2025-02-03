@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-libro{
+    padding: 30px;
+}
+
+img{
+    height: 700px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.contenedor{
+    padding: 30px;
+}
+
+.descripcion-bloque{
+    width: 600px;
+    height: 600px;
+    background: #81a288;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.descripcion{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.descripcion h3{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.descripcion p {
+    font-size: 20px;
+}
+
+.titulo{
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center ;
+    font-size: 30px;
+}
+
+.boton{
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.header{
+
+background: #81a288;
+padding: 30px;
+display: flex;
+justify-content: space-between;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12pt;
+}
+
+#logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+#menu{ 
+    width: 500px;
+    display: inline;
+    display: flex;
+    justify-content: end;
+    padding-top: 30px;
+    padding-right: 30px;
+    gap: 50px;
+    
+}
+.menuoptions{
+    color: #435a3b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    box-sizing: border-box;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    padding-top: 8px;
+    border-color: #253122;
+    background-color: white;
+    border-radius: 3pt;
+
+}
+
+
+.container{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
