@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info libros</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        main{
+            display: flex;
+            justify-content: center;
+        }
+
+        .imagen-libro{
+            padding: 30px;
+        }
+
+        img{
+            height: 700px;
+            width: 500px;
+            border-radius: 10px;
+        }
+
+        .contenedor{
+            padding: 30px;
+            margin-bottom: 90px;
+        }
+
+        .descripcion-bloque{
+            width: 600px;
+            height: 700px;
+            background: #81a288;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .descripcion{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+
+        }
+
+        .descripcion-bloque h4{
+            font-size: 30px;
+        }
+
+        .descripcion p {
+            font-size: 19px;
+        }
+
+        .titulo{
+            margin-bottom: 10px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 5px;
+            text-align: center ;
+            font-size: 30px;
+        }
+        
+        .boton{
+          padding: 10px;
+          border-radius: 10px;
+          font-size: 20px;
+        }
+
+        .boton1{
+            display: flex;
+            justify-content: flex-end;
+            padding: 0px;
+
+        }
+
+        .header{
+
+background: #435a3b;
+padding: 30px;
+display: flex;
+justify-content: space-between;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12pt;
+}
+
+        #logo {
+            width: 90px;
+            border-radius: 50%;
+        }
+        #menu{ 
+            width: 500px;
+            display: inline;
+            display: flex;
+            justify-content: end;
+            padding-top: 30px;
+            padding-right: 30px;
+            gap: 50px;
+            
+        }
+        .menuoptions{
+            color: #435a3b;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10pt;
+            box-sizing: border-box;
+            width: 200px;
+            height: 35px;
+            text-align: center;
+            padding-top: 8px;
+            border-color: #253122;
+            background-color: white;
+            border-radius: 3pt;
+        
+        }
+
+        
+        .container{
+            display:flex;
+            flex-direction: column;
+            height: 100vh;
+        
+        }
+        
+h3, h4{
+font-family:Arial, Helvetica, sans-serif;
+margin: 20px;
+}
+p{
+font-family: Arial, Helvetica, sans-serif;
+}
+        
+.content{
+padding: 40px;
+margin-top: 20px;
+}
+        #usuario{
+            width: 170px;
+            height: 170px;
+            display: flex;
+            padding: 10px;
+        }
+        .usuario{
+            display: flex;
+        }
+        .estrella{
+            height: 10px;
+            width: auto;
+            padding: 0px;
+            margin-left: 20px;
+        }
+        .estrellas{
+            padding: 0px;
+        }
+
+        .menu ul {
+    display: flex;
+    flex-direction: column; /* Hace que los enlaces estén en vertical */
+    gap: 30px; /* Espacio entre cada enlace */
+    flex-direction: row;
+    margin-top: 100px;
+    
+    }
+    a{
+        color: black;
+    }
+    .grid-container {
+            width: 100%;
+            max-width: 1100px;
+            margin-top: 60px auto;
+            display: flex;
+            grid-template-columns: repeat(auto-fit, nimax(280px, 1fr)); 
+            }
+
+    .grid-container img{
+            height: 80%;
+            width: 300px;
+            height: 360px;
+            object-fit: cover;
+            margin-top: 30px; 
+            padding: 20px; 
+           }
+   
+        .comentario {
+            margin-top: 10px;
+            font-size: 14px;
+            color: gray;
+        }
+
+.footer{ 
+width: 100%px;
+background: #435a3b;
+font-size: 10pt;
+text-align: center;
+padding: 20px;
+            
+}
+        
+.footer a{
+color: white;
+display: flex;
+display: inline;
+padding-left: 100px;
+        
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="header">
+            <div>
+                <img id="logo" src="./img/BookNest.png" alt="Logo">
+            </div>
+            <div id="menu">
+                <a class="menuoptions" href=""><b>Inicia sesión</b></a>
+                <a class="menuoptions" href=""><b>Regístrate</b></a>
+                <a class="menuoptions" href=""><b>Presta un libro</b></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="imagen-libro">
+            <img src="./img/Quijote.jpg" alt="Libro-01">
+        </div>
+        <div class="contenedor">
+            <div class="descripcion-bloque">
+                <div class="titulo"><h2>Don Quijote de la Mancha</h2></div>
+                <div class="descripcion">
+                    <h3>Genero: Novela de aventuras</h3>
+                    <p>El ingenioso hidalgo don Quijote de la Mancha narra las aventuras de Alonso Quijano, un hidalgo pobre que de tanto leer novelas de caballería acaba enloqueciendo y creyendo ser un caballero andante, nombrándose a sí mismo como don Quijote de la Mancha. Sus intenciones son ayudar a los pobres y desfavorecidos, y lograr el amor de la supuesta Dulcinea del Toboso, que es en realidad es una campesina llamada Aldonza Lorenzo. Decide nombrar a Sancho Panza, un empleado suyo, su escudero. Juntos viven muchas aventuras y tras ser vencido por el Caballero de la Blanca Luna se retira a su hogar, donde, tras adquirir de nuevo la cordura, fallece. <br>
+
+                    La presente edición intenta no ser una más de las múltiples ediciones existentes. Se ha respetado el texto de la edición príncipe con el mayor escrúpulo posible, acompañada de notas explicativas. Está ilustrada con magníficos grabados españoles que acompañaron a la primera edición de la Academia. Una edición en suma, tal como se dice en la introducción, realizada a la medida de todos los lectores y capaz de sugerir más de una interpretación.</p>
+                </div>
+                <div class="boton1"><button class="boton" input type="submit"  value="Reservar">Reservar</button></div>
+            </div>
+        </div>
+    </main>
+    
+    <section class="footer1">
+        <div class="footer">
+        <hr> <br>
+        <a href="#">Política de Privacidad</a>
+        <a href="#">Política de Cookies</a>
+        <a href="/Terminos y condiciones/terminos.html">Términos y condiciones</a>
+        </p>
+    </div>
+</section>
+</body>
+</html>

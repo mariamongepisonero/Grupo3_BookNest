@@ -1,0 +1,161 @@
+.header {
+    background: #435a3b;
+    height: 120px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+}
+
+#logo {
+    width: 80px;
+    border-radius: 50%;
+}
+
+#menu {
+    width: 1000px;
+    display: inline;
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+#buscador {
+    background-color: rgb(228, 228, 228);
+    box-sizing: border-box;
+    width: 800px;
+    height: 30px;
+    border-radius: 10pt;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 10pt;
+
+}
+
+.menuoptions {
+    color: #435a3b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9pt;
+    box-sizing: border-box;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    padding-top: 8px;
+    border-color: #253122;
+    background-color: white;
+    border-radius: 3pt;
+
+}
+
+h3,
+h2 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#usuario {
+    width: 170px;
+    height: 170px;
+    display: flex;
+    padding: 10px;
+}
+
+.usuario {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+.estrella {
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+    margin-inline-start: 10px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    /* Hace que los enlaces estén en vertical */
+    gap: 30px;
+    /* Espacio entre cada enlace */
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.caja-registro{
+    width: 600px;
+    padding: 0px;
+    background-color: #fff ;
+    color: #81a288;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 110px;
+}
+
+.caja-registro h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.formulario{
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 3px solid #243528;
+    font-size: 20px;
+}
+
+.caja-registro p{
+    font-size: 20px;
+    margin-bottom: 10
+    px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.caja-registro a{
+    color: #81a288;
+    text-decoration: none;
+}
+
+.caja-registro a:hover {
+    color: #81a288;
+    text-decoration: underline;
+}
+
+.botones{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #243b27;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.check{
+    margin-left: 5px;
+    outline: 3px solid 81a288;
+}
+.submit{
+    width: 500px;
+    height: 100px;
+}
